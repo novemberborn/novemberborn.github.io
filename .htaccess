@@ -4,3 +4,6 @@ RewriteBase /
 # no-www
 RewriteCond %{HTTP_HOST} ^www\.novemberborn\.net$ [NC]
 RewriteRule ^(.*)$ http://novemberborn.net/$1 [R=301,L]
+
+# Avoid index.html in the path
+RewriteRule ^index.html$ / [R=301,L]
