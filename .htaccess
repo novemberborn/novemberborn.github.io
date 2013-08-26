@@ -8,4 +8,7 @@ RewriteRule ^(.*)$ http://novemberborn.net/$1 [R=301,L]
 # Avoid index.html in the path
 RewriteRule ^index.html$ / [R=301,L]
 
+# Use minified CSS in production
+RewriteRule ^-/style\.css /-/style.min.css
+
 ErrorDocument 404 /-/404.html
