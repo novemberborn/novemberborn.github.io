@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+# no-www
+RewriteCond %{HTTP_HOST} ^www\.novemberborn\.net$ [NC]
+RewriteRule ^(.*)$ http://novemberborn.net/$1 [R=301,L]
