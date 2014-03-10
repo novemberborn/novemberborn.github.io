@@ -1,10 +1,5 @@
 {
   "private": true,
-  "name": "novemberborn.net",
-  "version": "1.0.2",
-  "devDependencies": {
-    "grunt-contrib-cssmin": "~0.6.1",
-    "grunt": "~0.4.1",
-    "grunt-release": "~0.5.1"
-  }
+  "name": "novemberborn.github.io",
+  "version": "1.0.2"
 }
